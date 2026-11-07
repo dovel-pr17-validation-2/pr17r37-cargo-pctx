@@ -38,7 +38,7 @@ rustls = { version = "0.23", default-features = false, features = [
 ] }
 camino = { version = "1", features = ["serde1"] }
 spinoff = "0.8"
-anstyle = "1"
+anstyle = "1.0.14"
 inquire = "0.9"
 tabled = { version = "0.20", features = ["ansi"] }
 terminal_size = "0.4"
@@ -47,7 +47,7 @@ ratatui = "0.30.0-beta.0"
 crossterm = "0.29"
 chrono = { workspace = true, features = ["serde"] }
 notify = "8"
-arboard = "3"
+arboard = "3.7.0"
 shlex = { workspace = true }
 
 # Logging and Telemetry
