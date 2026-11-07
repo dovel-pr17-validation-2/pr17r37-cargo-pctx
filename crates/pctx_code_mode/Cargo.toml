@@ -30,4 +30,4 @@ schemars = "1"
 [dev-dependencies]
 tokio = { workspace = true, features = ["macros", "rt-multi-thread"] }
 serial_test = "3"
-anyhow = "1"
+anyhow = "1.0.104"
